@@ -13,6 +13,9 @@ timeZone: Asia/Shanghai
 minify: true
 enableGitInfo: true
 
+relativeURLs: true
+uglyURLs: false
+
 menu:
   after:
     - name: 原站

@@ -28,7 +28,7 @@ jobs:
           hugo-version: "0.124.0"
           extended: true
       - name: Build
-        run: hugo --minify --canonifyURLs=true
+        run: hugo --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
