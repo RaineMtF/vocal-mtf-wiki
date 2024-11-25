@@ -1,6 +1,6 @@
 title: 成为女孩子的声音！
 description: 该系列图书结合了 插画、音频 和 基础训练手段 的 伪声训练书籍，同时也有让声音变得更好听的效果。
-baseURL: https://vocal.mtf.wiki
+baseURL: https://rainppr.github.io/vocal-mtf-wiki/
 theme: hugo-book
 
 disableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
@@ -15,6 +15,9 @@ enableGitInfo: true
 
 menu:
   after:
+    - name: 原站
+      url: https://vocal.mtf.wiki/
+      weight: 10
     - name: MtF.wiki
       url: https://mtf.wiki
       weight: 10
@@ -28,7 +31,7 @@ markup:
 
 params:
   BookTheme: auto
-  BookRepo: https://github.com/project-trans/jyosei-guide
+  BookRepo: https://github.com/RainPPR/vocal-mtf-wiki
   BookEditPath: edit/main
   BookDateFormat: 2006 年 01 月 02 日
   BookSearch: true
