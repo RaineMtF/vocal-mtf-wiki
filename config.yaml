@@ -13,7 +13,8 @@ timeZone: Asia/Shanghai
 minify: true
 enableGitInfo: true
 
-relativeURLs: true
+canonifyURLs: true
+# relativeURLs: true
 uglyURLs: false
 
 menu:
