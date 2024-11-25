@@ -3,7 +3,7 @@ description: 该系列图书结合了 插画、音频 和 基础训练手段 的
 # baseURL: https://rainppr.github.io/vocal-mtf-wiki/
 theme: hugo-book
 
-disableKinds: ["taxonomy", "taxonomyTerm", "RSS"]
+disableKinds: ["taxonomy", "RSS"]
 
 languageCode: zh-hans
 defaultContentLanguage: zh
@@ -23,7 +23,7 @@ menu:
       weight: 10
     - name: MtF.wiki
       url: https://mtf.wiki
-      weight: 10
+      weight: 20
 
 markup:
   goldmark:
