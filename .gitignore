@@ -14,7 +14,3 @@ hugo.linux
 
 # macOS
 *.DS_Store
-
-#
-
-*.deb
