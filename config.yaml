@@ -16,6 +16,9 @@ enableGitInfo: true
 relativeURLs: true
 uglyURLs: false
 
+# <meta name="robots" content="none">
+enableRobotsTXT: true
+
 menu:
   after:
     - name: 原站

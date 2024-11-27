@@ -6,10 +6,12 @@ on:
     branches:
       - main
     paths-ignore:
-      - .github
-      - .vscode
+      - ".github/**"
+      - ".vscode/**"
       - README.md
-      - LICENSE
+      - .gitattributes
+      - .gitignore
+      - .gitpod.yml
 
 jobs:
   build:
