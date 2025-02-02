@@ -28,6 +28,23 @@ jobs:
         with:
           hugo-version: "0.124.0"
           extended: true
+      - name: Config Git
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Update Submodule
+        run: |
+          git submodule sync
+          git submodule update --init --recursive
+          git submodule update --remote
+          if [[ `git status --porcelain` ]]; then
+            echo Changes.
+            git add .
+            git commit -m "Update Submodule"
+            git push
+          else
+            echo No Changes.
+          fi
       - name: Build
         run: hugo --minify
       - name: Upload artifact
